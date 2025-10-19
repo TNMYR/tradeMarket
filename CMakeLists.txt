@@ -20,7 +20,7 @@ set(pybind11_DIR "$ENV{VCPKG_ROOT}/installed/x64-windows/share/pybind11")
 find_package(pybind11 CONFIG REQUIRED)
 
 
-pybind11_add_module(tradeMarketModule ${CMAKE_SOURCE_DIR}/main2.cpp)
+pybind11_add_module(tradeMarketModule ${CMAKE_SOURCE_DIR}/main.cpp)
 
 target_include_directories(tradeMarketModule PRIVATE 
     ${Python_INCLUDE_DIRS}
