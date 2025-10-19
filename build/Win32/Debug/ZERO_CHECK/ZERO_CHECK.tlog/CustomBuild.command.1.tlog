@@ -1,0 +1,10 @@
+^C:\DEV\DEV\C++\PROJECTS\TRADEMARKET\BUILD\CMAKEFILES\D361A239F167C528DD964601EDD1AE14\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/dev/dev/c++/projects/tradeMarket -BC:/dev/dev/c++/projects/tradeMarket/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/dev/dev/c++/projects/tradeMarket/build/tradeMarket.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

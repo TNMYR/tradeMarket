@@ -1,0 +1,3 @@
+C:/dev/dev/c++/projects/tradeMarket/build/CMakeFiles/trade.dir
+C:/dev/dev/c++/projects/tradeMarket/build/CMakeFiles/ALL_BUILD.dir
+C:/dev/dev/c++/projects/tradeMarket/build/CMakeFiles/ZERO_CHECK.dir
